@@ -11,7 +11,7 @@ class User(models.Model):
 class Team(models.Model):
     _id = models.ObjectIdField()
     name = models.CharField(max_length=100)
-    members = models.ArrayField(model_container=User)
+    members = models.JSONField(default=list)  # Store list of user emails
     # Add other team fields as needed
 
 class Activity(models.Model):
