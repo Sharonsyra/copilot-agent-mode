@@ -25,7 +25,12 @@ SECRET_KEY = "django-insecure-h@d6+gq15r0cn69vv2@aa&+rv6tfoxsn4(i26@l)hn)4irq)&i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "glorious-memory-97wx779pxr5c7r7w-8000.app.github.dev",
+    "*",
+]
 
 
 # Application definition
