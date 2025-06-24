@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'https://glorious-memory-97wx779pxr5c7r7w-8000.app.github.dev/api/activity/';
+// Add the correct Django REST API endpoint suffix for activities
+const API_URL = 'https://glorious-memory-97wx779pxr5c7r7w-8000.app.github.dev/api/activities/';
 
 function Activities() {
   const [activities, setActivities] = useState([]);
